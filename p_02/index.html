@@ -170,9 +170,9 @@
 
 				cubeMesh = new THREE.Mesh( new THREE.BoxBufferGeometry( 100, 100, 100 ), cubeMaterial );
 				sceneCube.add( cubeMesh );
-				var sphereGeo = new THREE.SphereBufferGeometry( 270.0, 48, 24 );
-				var cubeGeo = new THREE.BoxBufferGeometry( 200, 200, 100 );
-				var torusGeo = new THREE.TetrahedronGeometry( 220);
+					var sphereGeo = new THREE.SphereBufferGeometry( 150.0, 48, 24 );
+					var cubeGeo = new THREE.BoxBufferGeometry( 100, 100, 100 );
+					var torusGeo = new THREE.TetrahedronGeometry( 100);
 
 				material = new THREE.MeshLambertMaterial( { envMap: textureCube } );
 				sphere = new THREE.Mesh( sphereGeo, material );
